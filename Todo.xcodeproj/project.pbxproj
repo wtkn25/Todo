@@ -16,6 +16,7 @@
 		BE1B972524B611FC007536E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1B972324B611FC007536E9 /* LaunchScreen.storyboard */; };
 		BE1B973024B611FC007536E9 /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B972F24B611FC007536E9 /* TodoTests.swift */; };
 		BE1B973B24B611FC007536E9 /* TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B973A24B611FC007536E9 /* TodoUITests.swift */; };
+		BE1B974924B613BA007536E9 /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B974824B613BA007536E9 /* CategoryImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BE1B973624B611FC007536E9 /* TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1B973A24B611FC007536E9 /* TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITests.swift; sourceTree = "<group>"; };
 		BE1B973C24B611FC007536E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1B974824B613BA007536E9 /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				BE1B971524B611FA007536E9 /* AppDelegate.swift */,
 				BE1B971724B611FA007536E9 /* SceneDelegate.swift */,
 				BE1B971C24B611FA007536E9 /* ContentView.swift */,
+				BE1B974824B613BA007536E9 /* CategoryImage.swift */,
 				BE1B971E24B611FC007536E9 /* Assets.xcassets */,
 				BE1B972324B611FC007536E9 /* LaunchScreen.storyboard */,
 				BE1B972624B611FC007536E9 /* Info.plist */,
@@ -273,6 +276,7 @@
 				BE1B971624B611FA007536E9 /* AppDelegate.swift in Sources */,
 				BE1B971B24B611FA007536E9 /* Todo.xcdatamodeld in Sources */,
 				BE1B971D24B611FA007536E9 /* ContentView.swift in Sources */,
+				BE1B974924B613BA007536E9 /* CategoryImage.swift in Sources */,
 				BE1B971824B611FA007536E9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
