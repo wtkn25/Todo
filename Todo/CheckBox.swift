@@ -11,14 +11,18 @@ import SwiftUI
 struct CheckBox: View {
     @State var checked: Bool = false
     var body: some View {
-        Toggle(isOn: $checked){
-            Text("チェックボックス")
-        }
+        Image(systemName: checked ? "checkmark.circle":"circle")
+            .onTapGesture {
+                self.checked.toggle()
+            }
     }
 }
 
 struct CheckBox_Previews: PreviewProvider {
     static var previews: some View {
-        CheckBox()
+        VStack{
+            CheckBox()
+            CheckBox(checked: true)
+        }
     }
 }
