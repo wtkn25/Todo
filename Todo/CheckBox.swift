@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct CheckBox: View {
-    @State var checked: Bool = false
+    @Binding var checked: Bool
     var body: some View {
         Image(systemName: checked ? "checkmark.circle":"circle")
             .onTapGesture {
@@ -21,8 +21,8 @@ struct CheckBox: View {
 struct CheckBox_Previews: PreviewProvider {
     static var previews: some View {
         VStack{
-            CheckBox()
-            CheckBox(checked: true)
+            CheckBox(checked: .constant(false))
+            CheckBox(checked: .constant(true))
         }
     }
 }
