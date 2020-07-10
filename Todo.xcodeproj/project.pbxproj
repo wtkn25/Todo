@@ -19,6 +19,7 @@
 		BE1B974924B613BA007536E9 /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B974824B613BA007536E9 /* CategoryImage.swift */; };
 		BE1B974B24B76707007536E9 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B974A24B76706007536E9 /* CheckBox.swift */; };
 		BE1B974E24B77023007536E9 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B974D24B77023007536E9 /* Color+Extension.swift */; };
+		BE1B975024B770C5007536E9 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B974F24B770C5007536E9 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		BE1B974824B613BA007536E9 /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
 		BE1B974A24B76706007536E9 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		BE1B974D24B77023007536E9 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		BE1B974F24B770C5007536E9 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				BE1B971C24B611FA007536E9 /* ContentView.swift */,
 				BE1B974824B613BA007536E9 /* CategoryImage.swift */,
 				BE1B974A24B76706007536E9 /* CheckBox.swift */,
+				BE1B974F24B770C5007536E9 /* UserView.swift */,
 				BE1B971E24B611FC007536E9 /* Assets.xcassets */,
 				BE1B972324B611FC007536E9 /* LaunchScreen.storyboard */,
 				BE1B972624B611FC007536E9 /* Info.plist */,
@@ -290,6 +293,7 @@
 				BE1B971624B611FA007536E9 /* AppDelegate.swift in Sources */,
 				BE1B974E24B77023007536E9 /* Color+Extension.swift in Sources */,
 				BE1B971B24B611FA007536E9 /* Todo.xcdatamodeld in Sources */,
+				BE1B975024B770C5007536E9 /* UserView.swift in Sources */,
 				BE1B974B24B76707007536E9 /* CheckBox.swift in Sources */,
 				BE1B971D24B611FA007536E9 /* ContentView.swift in Sources */,
 				BE1B974924B613BA007536E9 /* CategoryImage.swift in Sources */,
