@@ -12,8 +12,9 @@ struct CategoryView: View {
     var category: TodoEntity.Category
     @State var numberOfTasks = 0
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Image(systemName: category.image())
+                .font(.largeTitle)
             Text(category.toString())
             Text("・\(numberOfTasks)タスク")
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
@@ -21,6 +22,11 @@ struct CategoryView: View {
             }
             Spacer()
         }
+            .padding()
+            .frame(maxWidth: .infinity, minHeight: 150)
+            .foregroundColor(.white)
+            .background(category.color())
+            .cornerRadius(20)
     }
 }
 
