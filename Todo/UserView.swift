@@ -14,8 +14,10 @@ struct UserView: View {
             VStack(alignment: .leading){
                 Text("こんにちは")
                     .foregroundColor(Color.tTitle)
+                    .font(.footnote)
                 Text("Kenji Watarai")
                     .foregroundColor(Color.tTitle)
+                    .font(.title)
             }
             Spacer()
             Image("profile")
