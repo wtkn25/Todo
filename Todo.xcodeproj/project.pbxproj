@@ -26,6 +26,7 @@
 		BED25D8424B8B0BA00201CA7 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED25D8324B8B0BA00201CA7 /* TodoList.swift */; };
 		BED25D8624B9D88400201CA7 /* TodoDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED25D8524B9D88400201CA7 /* TodoDetailRow.swift */; };
 		BEDF278224B9FEFF008D35DE /* NewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF278124B9FEFF008D35DE /* NewTask.swift */; };
+		BEDF278424BA0AB5008D35DE /* Binding+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF278324BA0AB5008D35DE /* Binding+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		BED25D8324B8B0BA00201CA7 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		BED25D8524B9D88400201CA7 /* TodoDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailRow.swift; sourceTree = "<group>"; };
 		BEDF278124B9FEFF008D35DE /* NewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTask.swift; sourceTree = "<group>"; };
+		BEDF278324BA0AB5008D35DE /* Binding+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			children = (
 				BE1B974D24B77023007536E9 /* Color+Extension.swift */,
 				BED25D7D24B8A08600201CA7 /* TodoEntity+Extension.swift */,
+				BEDF278324BA0AB5008D35DE /* Binding+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				BE1B974B24B76707007536E9 /* CheckBox.swift in Sources */,
 				BE1B971D24B611FA007536E9 /* ContentView.swift in Sources */,
 				BEDF278224B9FEFF008D35DE /* NewTask.swift in Sources */,
+				BEDF278424BA0AB5008D35DE /* Binding+Extension.swift in Sources */,
 				BE1B974924B613BA007536E9 /* CategoryImage.swift in Sources */,
 				BED25D8624B9D88400201CA7 /* TodoDetailRow.swift in Sources */,
 				BED25D7E24B8A08600201CA7 /* TodoEntity+Extension.swift in Sources */,
