@@ -27,6 +27,18 @@ struct TodoDetailRow: View {
             }
             .foregroundColor(self.todo.state == TodoEntity.State.done.rawValue ? .secondary : .primary)
         }
+        .gesture(DragGesture().onChanged({ value in
+            if value.predictedEndTranslation.width > 200 {
+                if self.todo.state != TodoEntity.State.done.rawValue {
+                    self.todo.state = TodoEntity.State.done.rawValue
+                }
+            }
+            else if value.predictedEndTranslation.width < -200 {
+                if self.todo.state != TodoEntity.State.todo.rawValue {
+                    self.todo.state = TodoEntity.State.todo.rawValue
+                }
+            }
+        }))
         
     }
 }
