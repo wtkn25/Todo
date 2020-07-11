@@ -9,10 +9,11 @@
 import SwiftUI
 
 struct NewTask: View {
+    @State var task: String = ""
     var body: some View {
         NavigationView {
             VStack {
-                Text("Hello World!")
+                TextField("タスクを入力", text: $task)
             }.navigationBarTitle("タスクの追加")
         }
     }
