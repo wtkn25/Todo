@@ -13,7 +13,11 @@ struct TodoDetailRow: View {
     var body: some View {
         HStack {
             CategoryImage(TodoEntity.Category(rawValue: todo.category))
-            CheckBox(checked: .constant(true)){
+            CheckBox(checked: Binding(get: {
+                self.todo.state == TodoEntity.State.done.rawValue
+            }, set: {
+                self.todo.state = $0 ? TodoEntity.State.done.rawValue : TodoEntity.State.todo.rawValue
+            })){
                 Text(self.todo.task ?? "no title")
             }
         }
