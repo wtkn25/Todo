@@ -24,6 +24,7 @@
 		BED25D8024B8A32200201CA7 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED25D7F24B8A32200201CA7 /* CategoryView.swift */; };
 		BED25D8224B8A8F700201CA7 /* QuickNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED25D8124B8A8F700201CA7 /* QuickNewTask.swift */; };
 		BED25D8424B8B0BA00201CA7 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED25D8324B8B0BA00201CA7 /* TodoList.swift */; };
+		BED25D8624B9D88400201CA7 /* TodoDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED25D8524B9D88400201CA7 /* TodoDetailRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		BED25D7F24B8A32200201CA7 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		BED25D8124B8A8F700201CA7 /* QuickNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNewTask.swift; sourceTree = "<group>"; };
 		BED25D8324B8B0BA00201CA7 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		BED25D8524B9D88400201CA7 /* TodoDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				BE1B971C24B611FA007536E9 /* ContentView.swift */,
 				BE1B974824B613BA007536E9 /* CategoryImage.swift */,
 				BE1B974A24B76706007536E9 /* CheckBox.swift */,
+				BED25D8524B9D88400201CA7 /* TodoDetailRow.swift */,
 				BE1B974F24B770C5007536E9 /* UserView.swift */,
 				BED25D7F24B8A32200201CA7 /* CategoryView.swift */,
 				BED25D8124B8A8F700201CA7 /* QuickNewTask.swift */,
@@ -312,6 +315,7 @@
 				BE1B974B24B76707007536E9 /* CheckBox.swift in Sources */,
 				BE1B971D24B611FA007536E9 /* ContentView.swift in Sources */,
 				BE1B974924B613BA007536E9 /* CategoryImage.swift in Sources */,
+				BED25D8624B9D88400201CA7 /* TodoDetailRow.swift in Sources */,
 				BED25D7E24B8A08600201CA7 /* TodoEntity+Extension.swift in Sources */,
 				BE1B971824B611FA007536E9 /* SceneDelegate.swift in Sources */,
 			);
