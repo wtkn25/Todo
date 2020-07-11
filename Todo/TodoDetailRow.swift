@@ -10,9 +10,12 @@ import SwiftUI
 
 struct TodoDetailRow: View {
     @ObservedObject var todo: TodoEntity
+    var hideIcon = false
     var body: some View {
         HStack {
-            CategoryImage(TodoEntity.Category(rawValue: todo.category))
+            if !hideIcon {
+                CategoryImage(TodoEntity.Category(rawValue: todo.category))
+            }
             CheckBox(checked: Binding(get: {
                 self.todo.state == TodoEntity.State.done.rawValue
             }, set: {
