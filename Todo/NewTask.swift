@@ -11,6 +11,8 @@ import SwiftUI
 struct NewTask: View {
     @State var task: String = ""
     @State var time: Date? = Date()
+    @State var category: Int16 = TodoEntity.Category.ImpUrg_1st.rawValue
+    var categories: [TodoEntity.Category] = [.ImpUrg_1st, .ImpNUrg_2nd, .NImpUrg_3rd, .NImpNUrg_4th]
     var body: some View {
         NavigationView {
             Form {
@@ -22,6 +24,14 @@ struct NewTask: View {
                         DatePicker(selection: Binding($time, Date()), label: { Text("日時")} )
                     }else {
                         Text("時間未指定")
+                    }
+                }
+                Picker(selection: $category, label: Text("種類")) {
+                    ForEach(categories, id: \.self) { category in
+                        HStack {
+                            CategoryImage(category)
+                            Text(category.toString())
+                        }.tag(category.rawValue)
                     }
                 }
                 Section(header: Text("操作")) {
