@@ -20,6 +20,8 @@
 		BE1B974B24B76707007536E9 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B974A24B76706007536E9 /* CheckBox.swift */; };
 		BE1B974E24B77023007536E9 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B974D24B77023007536E9 /* Color+Extension.swift */; };
 		BE1B975024B770C5007536E9 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B974F24B770C5007536E9 /* UserView.swift */; };
+		BE42B25024BB16DC00C70B9B /* KeyBoardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42B24F24BB16DC00C70B9B /* KeyBoardObserver.swift */; };
+		BE42B25224BB1CEB00C70B9B /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42B25124BB1CEB00C70B9B /* UIApplication+Extension.swift */; };
 		BE987BF524BAFFF0004E4CE8 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE987BF424BAFFF0004E4CE8 /* RoundedCorners.swift */; };
 		BED25D7E24B8A08600201CA7 /* TodoEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED25D7D24B8A08600201CA7 /* TodoEntity+Extension.swift */; };
 		BED25D8024B8A32200201CA7 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED25D7F24B8A32200201CA7 /* CategoryView.swift */; };
@@ -70,6 +72,8 @@
 		BE1B974A24B76706007536E9 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		BE1B974D24B77023007536E9 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		BE1B974F24B770C5007536E9 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		BE42B24F24BB16DC00C70B9B /* KeyBoardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardObserver.swift; sourceTree = "<group>"; };
+		BE42B25124BB1CEB00C70B9B /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		BE987BF424BAFFF0004E4CE8 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		BED25D7D24B8A08600201CA7 /* TodoEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoEntity+Extension.swift"; sourceTree = "<group>"; };
 		BED25D7F24B8A32200201CA7 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
@@ -140,6 +144,7 @@
 				BED25D8524B9D88400201CA7 /* TodoDetailRow.swift */,
 				BE1B974F24B770C5007536E9 /* UserView.swift */,
 				BED25D7F24B8A32200201CA7 /* CategoryView.swift */,
+				BE42B24F24BB16DC00C70B9B /* KeyBoardObserver.swift */,
 				BED25D8124B8A8F700201CA7 /* QuickNewTask.swift */,
 				BEDF278124B9FEFF008D35DE /* NewTask.swift */,
 				BEE8A3BF24BAC7F600BAA440 /* EditTask.swift */,
@@ -188,6 +193,7 @@
 				BED25D7D24B8A08600201CA7 /* TodoEntity+Extension.swift */,
 				BEDF278324BA0AB5008D35DE /* Binding+Extension.swift */,
 				BEE8A3C324BAF99700BAA440 /* Date+Extension.swift */,
+				BE42B25124BB1CEB00C70B9B /* UIApplication+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -329,12 +335,14 @@
 				BE1B974E24B77023007536E9 /* Color+Extension.swift in Sources */,
 				BED25D8424B8B0BA00201CA7 /* TodoList.swift in Sources */,
 				BE1B971B24B611FA007536E9 /* Todo.xcdatamodeld in Sources */,
+				BE42B25024BB16DC00C70B9B /* KeyBoardObserver.swift in Sources */,
 				BE1B975024B770C5007536E9 /* UserView.swift in Sources */,
 				BEE8A3C224BAF77200BAA440 /* TaskToday.swift in Sources */,
 				BED25D8024B8A32200201CA7 /* CategoryView.swift in Sources */,
 				BE1B974B24B76707007536E9 /* CheckBox.swift in Sources */,
 				BE1B971D24B611FA007536E9 /* ContentView.swift in Sources */,
 				BEDF278224B9FEFF008D35DE /* NewTask.swift in Sources */,
+				BE42B25224BB1CEB00C70B9B /* UIApplication+Extension.swift in Sources */,
 				BEDF278424BA0AB5008D35DE /* Binding+Extension.swift in Sources */,
 				BE1B974924B613BA007536E9 /* CategoryImage.swift in Sources */,
 				BED25D8624B9D88400201CA7 /* TodoDetailRow.swift in Sources */,
