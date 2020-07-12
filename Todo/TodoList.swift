@@ -20,15 +20,19 @@ struct TodoList: View {
     let category: TodoEntity.Category
     
     var body: some View {
-        VStack {
-            List {
-                ForEach(todoList){ todo in
-                    if todo.category == self.category.rawValue{
-                        TodoDetailRow(todo: todo, hideIcon: true)
+        NavigationView {
+            VStack {
+                List {
+                    ForEach(todoList){ todo in
+                        if todo.category == self.category.rawValue{
+                            NavigationLink(destination: EditTask(todo: todo)) {
+                                TodoDetailRow(todo: todo, hideIcon: true)
+                            }
+                        }
                     }
                 }
+                QuickNewTask(category: category)
             }
-            QuickNewTask(category: category)
         }
     }
 }
