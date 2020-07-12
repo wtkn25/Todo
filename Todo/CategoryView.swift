@@ -20,7 +20,12 @@ struct CategoryView: View {
     }
     
     var body: some View {
-        VStack(alignment: .leading) {
+        
+        let gradient = Gradient(colors: [category.color(), category.color().opacity(0.8)])
+        
+        let linear = LinearGradient(gradient: gradient, startPoint: .top, endPoint: .bottom)
+        
+        return VStack(alignment: .leading) {
             Image(systemName: category.image())
                 .font(.largeTitle)
                 .sheet(isPresented: $showList, onDismiss: { self.update() }) {
@@ -42,7 +47,7 @@ struct CategoryView: View {
             .padding()
             .frame(maxWidth: .infinity, minHeight: 150)
             .foregroundColor(.white)
-            .background(category.color())
+            .background(linear)
             .cornerRadius(20)
             .onTapGesture {
                 self.showList = true
