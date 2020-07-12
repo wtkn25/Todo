@@ -46,7 +46,8 @@ struct TodoList: View {
                     }.onDelete(perform: deleteTodo)
                 }
                 QuickNewTask(category: category)
-            }
+            }.navigationBarTitle(category.toString())
+            .navigationBarItems(trailing: EditButton())
         }
     }
 }
