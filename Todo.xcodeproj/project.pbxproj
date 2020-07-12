@@ -20,6 +20,7 @@
 		BE1B974B24B76707007536E9 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B974A24B76706007536E9 /* CheckBox.swift */; };
 		BE1B974E24B77023007536E9 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B974D24B77023007536E9 /* Color+Extension.swift */; };
 		BE1B975024B770C5007536E9 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B974F24B770C5007536E9 /* UserView.swift */; };
+		BE987BF524BAFFF0004E4CE8 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE987BF424BAFFF0004E4CE8 /* RoundedCorners.swift */; };
 		BED25D7E24B8A08600201CA7 /* TodoEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED25D7D24B8A08600201CA7 /* TodoEntity+Extension.swift */; };
 		BED25D8024B8A32200201CA7 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED25D7F24B8A32200201CA7 /* CategoryView.swift */; };
 		BED25D8224B8A8F700201CA7 /* QuickNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED25D8124B8A8F700201CA7 /* QuickNewTask.swift */; };
@@ -69,6 +70,7 @@
 		BE1B974A24B76706007536E9 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		BE1B974D24B77023007536E9 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		BE1B974F24B770C5007536E9 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		BE987BF424BAFFF0004E4CE8 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 		BED25D7D24B8A08600201CA7 /* TodoEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoEntity+Extension.swift"; sourceTree = "<group>"; };
 		BED25D7F24B8A32200201CA7 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		BED25D8124B8A8F700201CA7 /* QuickNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNewTask.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				BEDF278124B9FEFF008D35DE /* NewTask.swift */,
 				BEE8A3BF24BAC7F600BAA440 /* EditTask.swift */,
 				BEE8A3C124BAF77200BAA440 /* TaskToday.swift */,
+				BE987BF424BAFFF0004E4CE8 /* RoundedCorners.swift */,
 				BED25D8324B8B0BA00201CA7 /* TodoList.swift */,
 				BE1B971E24B611FC007536E9 /* Assets.xcassets */,
 				BE1B972324B611FC007536E9 /* LaunchScreen.storyboard */,
@@ -336,6 +339,7 @@
 				BE1B974924B613BA007536E9 /* CategoryImage.swift in Sources */,
 				BED25D8624B9D88400201CA7 /* TodoDetailRow.swift in Sources */,
 				BED25D7E24B8A08600201CA7 /* TodoEntity+Extension.swift in Sources */,
+				BE987BF524BAFFF0004E4CE8 /* RoundedCorners.swift in Sources */,
 				BE1B971824B611FA007536E9 /* SceneDelegate.swift in Sources */,
 				BEE8A3C424BAF99700BAA440 /* Date+Extension.swift in Sources */,
 			);
